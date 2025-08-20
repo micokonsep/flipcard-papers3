@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "created": "2025-08-16",
+    "updated": "2025-08-16",
+    "description": "Flipcard Index - Hybrid Architecture",
+    "total_cards": 5,
+    "architecture": "hybrid",
+    "export_type": "selective",
+    "exported_date": "2025-08-19"
+  },
+  "cards": [
+    {
+      "id": "0001",
+      "folder": "flip-0001",
+      "title": "Bicycle",
+      "category": "transport",
+      "difficulty": 1,
+      "thumbnail": "thumb-0001.png",
+      "languages": [
+        "chinese",
+        "english"
+      ]
+    },
+    {
+      "id": "0002",
+      "folder": "flip-0002",
+      "title": "Computer",
+      "category": "technology",
+      "difficulty": 2,
+      "thumbnail": "thumb-0002.png",
+      "languages": [
+        "chinese",
+        "english"
+      ]
+    },
+    {
+      "id": "0003",
+      "folder": "flip-0003",
+      "title": "Car",
+      "category": "transport",
+      "difficulty": 1,
+      "thumbnail": "thumb-0003.png",
+      "languages": [
+        "chinese",
+        "english"
+      ]
+    },
+    {
+      "id": "0004",
+      "folder": "flip-0004",
+      "title": "Tank",
+      "category": "transport",
+      "difficulty": 0,
+      "thumbnail": "thumb-0004.png",
+      "languages": [
+        "chinese",
+        "english"
+      ]
+    },
+    {
+      "id": "0010",
+      "folder": "flip-0010",
+      "title": "Drone",
+      "category": "technology",
+      "difficulty": 0,
+      "thumbnail": "thumb-0010.png",
+      "languages": [
+        "chinese",
+        "english"
+      ]
+    }
+  ],
+  "categories": {
+    "transport": {
+      "name": "Transportation",
+      "color": "#2196F3",
+      "icon": "🚗"
+    },
+    "technology": {
+      "name": "Technology",
+      "color": "#9C27B0",
+      "icon": "💻"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "0001",
+  "original_id": "0001",
+  "title": "Bicycle",
+  "difficulty": 1,
+  "category": "transport",
+  "main_image": "img-0001.png",
+  "thumbnail": "thumb-0001.png",
+  "languages": {
+    "chinese": {
+      "big_text": "自行车",
+      "small_text": "zì xíng chē",
+      "big_file": "big-zh-0001.png",
+      "small_file": "small-zh-0001.png",
+      "notes": ""
+    },
+    "english": {
+      "big_text": "Bicycle",
+      "small_text": "/ˈbaɪsɪkəl/",
+      "big_file": "big-en-0001.png",
+      "small_file": "small-en-0001.png",
+      "notes": ""
+    }
+  },
+  "tags": [
+    "transport",
+    "vehicle",
+    "beginner"
+  ],
+  "_folder_path": "flipcard\\flip-0001",
+  "_folder_name": "flip-0001"
+}

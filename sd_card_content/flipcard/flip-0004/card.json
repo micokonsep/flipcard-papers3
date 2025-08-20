@@ -1,0 +1,27 @@
+{
+  "id": "0004",
+  "original_id": "0004",
+  "title": "Tank",
+  "difficulty": 0,
+  "category": "transport",
+  "main_image": "img-0004.png",
+  "thumbnail": "thumb-0004.png",
+  "languages": {
+    "chinese": {
+      "big_text": "坦克",
+      "small_text": "Tǎnkè",
+      "big_file": "big-zh-0004.png",
+      "small_file": "small-zh-0004.png",
+      "notes": ""
+    },
+    "english": {
+      "big_text": "TANK",
+      "small_text": "/tˈæŋk/",
+      "big_file": "big-en-0004.png",
+      "small_file": "small-en-0004.png",
+      "notes": ""
+    }
+  },
+  "_folder_path": "flipcard\\flip-0004",
+  "_folder_name": "flip-0004"
+}

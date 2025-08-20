@@ -1,0 +1,32 @@
+{
+  "id": "0002",
+  "original_id": "0002",
+  "title": "Computer",
+  "difficulty": 2,
+  "category": "technology",
+  "main_image": "img-0002.png",
+  "thumbnail": "thumb-0002.png",
+  "languages": {
+    "chinese": {
+      "big_text": "电脑",
+      "small_text": "diànnǎo",
+      "big_file": "big-zh-0002.png",
+      "small_file": "small-zh-0002.png",
+      "notes": ""
+    },
+    "english": {
+      "big_text": "Computer",
+      "small_text": "kəmˈpyo͞odər",
+      "big_file": "big-en-0002.png",
+      "small_file": "small-en-0002.png",
+      "notes": ""
+    }
+  },
+  "tags": [
+    "technology",
+    "device",
+    "intermediate"
+  ],
+  "_folder_path": "flipcard\\flip-0002",
+  "_folder_name": "flip-0002"
+}

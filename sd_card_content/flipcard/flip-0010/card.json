@@ -1,0 +1,27 @@
+{
+  "id": "0010",
+  "original_id": "0010",
+  "title": "Drone",
+  "difficulty": 0,
+  "category": "technology",
+  "main_image": "img-0010.png",
+  "thumbnail": "thumb-0010.png",
+  "languages": {
+    "chinese": {
+      "big_text": "无人机",
+      "small_text": "Wú rén jī",
+      "big_file": "big-zh-0010.png",
+      "small_file": "small-zh-0010.png",
+      "notes": ""
+    },
+    "english": {
+      "big_text": "DRONE",
+      "small_text": "/drˈoʊn/",
+      "big_file": "big-en-0010.png",
+      "small_file": "small-en-0010.png",
+      "notes": ""
+    }
+  },
+  "_folder_path": "flipcard\\flip-0010",
+  "_folder_name": "flip-0010"
+}

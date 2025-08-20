@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-08-15",
+    "description": "Flipcard system configuration",
+    "app_name": "M5Stack Flipcard Language Learning"
+  },
+  "display": {
+    "orientation": "portrait",
+    "resolution": {
+      "width": 540,
+      "height": 960
+    },
+    "layout": {
+      "big_image": {
+        "width": 400,
+        "height": 150,
+        "x": 40,
+        "y": 120
+      },
+      "small_image": {
+        "width": 400,
+        "height": 80,
+        "x": 40,
+        "y": 290
+      },
+      "main_image": {
+        "width": 400,
+        "height": 400,
+        "x": 40,
+        "y": 390
+      },
+      "navigation_buttons": {
+        "width": 80,
+        "height": 80,
+        "left": {
+          "x": 40,
+          "y": 20
+        },
+        "home": {
+          "x": 240,
+          "y": 20
+        },
+        "right": {
+          "x": 440,
+          "y": 20
+        }
+      }
+    }
+  },
+  "navigation": {
+    "auto_advance": false,
+    "auto_advance_delay": 5000,
+    "loop_cards": true,
+    "show_progress": true,
+    "touch_enabled": true,
+    "button_sounds": false
+  },
+  "languages": {
+    "default": "chinese",
+    "supported": {
+      "chinese": {
+        "code": "zh",
+        "name": "中文",
+        "english_name": "Chinese",
+        "file_suffix": "zh",
+        "direction": "ltr",
+        "font_scale": 1.0,
+        "enabled": true
+      },
+      "english": {
+        "code": "en",
+        "name": "English",
+        "english_name": "English",
+        "file_suffix": "en",
+        "direction": "ltr",
+        "font_scale": 1.0,
+        "enabled": true
+      },
+      "japanese": {
+        "code": "ja",
+        "name": "日本語",
+        "english_name": "Japanese",
+        "file_suffix": "ja",
+        "direction": "ltr",
+        "font_scale": 1.0,
+        "enabled": false
+      },
+      "arabic": {
+        "code": "ar",
+        "name": "العربية",
+        "english_name": "Arabic",
+        "file_suffix": "ar",
+        "direction": "rtl",
+        "font_scale": 1.0,
+        "enabled": false
+      },
+      "indonesian": {
+        "code": "id",
+        "name": "Bahasa Indonesia",
+        "english_name": "Indonesian",
+        "file_suffix": "id",
+        "direction": "ltr",
+        "font_scale": 1.0,
+        "enabled": false
+      },
+      "korean": {
+        "code": "ko",
+        "name": "한국어",
+        "english_name": "Korean",
+        "file_suffix": "ko",
+        "direction": "ltr",
+        "font_scale": 1.0,
+        "enabled": false
+      }
+    }
+  },
+  "ui": {
+    "theme": {
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "button_color": "#4CAF50",
+      "accent_color": "#2196F3"
+    },
+    "assets": {
+      "navigation_buttons": {
+        "left": "Left.png",
+        "home": "Right.png",
+        "right": "Right.png"
+      },
+      "background": {
+        "empty_frame": "empty-frame.png"
+      }
+    },
+    "animations": {
+      "card_transition": true,
+      "transition_speed": 300,
+      "fade_effect": true
+    }
+  },
+  "storage": {
+    "base_path": "/flipcard/",
+    "card_data_file": "flipcard.json",
+    "backup_enabled": true,
+    "cache_images": true
+  },
+  "file_naming": {
+    "convention": {
+      "folder": "flip-{id}",
+      "big_image": "big-{lang}-{id}.png",
+      "small_image": "small-{lang}-{id}.png",
+      "main_image": "img-{id}.png",
+      "thumbnail": "thumb-{id}.png"
+    },
+    "file_types": {
+      "language_specific": [
+        "big_image",
+        "small_image"
+      ],
+      "shared_per_card": [
+        "main_image",
+        "thumbnail"
+      ],
+      "navigation": [
+        "left_button",
+        "home_button",
+        "right_button",
+        "empty_frame"
+      ]
+    },
+    "validation": {
+      "required_per_language": [
+        "big_image",
+        "small_image"
+      ],
+      "required_per_card": [
+        "main_image",
+        "thumbnail"
+      ],
+      "supported_formats": [
+        "png",
+        "jpg"
+      ],
+      "max_file_size": 2097152,
+      "thumbnail_max_size": 51200
+    },
+    "description": {
+      "big_image": "Language-specific main content (e.g., Chinese characters, English words)",
+      "small_image": "Language-specific pronunciation/transliteration",
+      "main_image": "Single main illustration per card, used across ALL languages",
+      "thumbnail": "Small preview image for card selection/list view (100x100px)"
+    }
+  },
+  "performance": {
+    "preload_next_card": true,
+    "max_cached_cards": 5,
+    "image_compression": true,
+    "lazy_loading": true
+  }
+}
