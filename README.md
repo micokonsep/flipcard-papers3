@@ -2,6 +2,9 @@
 
 A JSON-driven interactive flashcard application for M5Stack ESP32-S3 devices with E-paper displays. Features a sophisticated quad-mode interface for organized language learning with category-based navigation, multi-language support, and automatic power management.
 
+Demo:
+https://www.youtube.com/watch?v=eD7DW_osED0
+
 ## Features
 
 ### Multi-Mode Interface
